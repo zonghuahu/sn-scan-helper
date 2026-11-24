@@ -1,0 +1,8 @@
+{
+  "_comment": "复制为 config.json 后填写（config.json 不会进版本库）。Copy to config.json and fill in your own SAP system; config.json is git-ignored.",
+  "sap_base_url": "http://your-sap-host:8000",
+  "sap_client": "100",
+  "sap_language": "ZH",
+  "query_app": "z_your_serial_query_app",
+  "query_button_text": "查询"
+}

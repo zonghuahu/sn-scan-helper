@@ -1,0 +1,23 @@
+# Python 环境 / 缓存（每台电脑自己建）
+.venv/
+__pycache__/
+
+# 个人登录数据：SAP 浏览器会话、Chrome 保存的密码都在这里，绝不能提交或分享
+browser_profile/
+
+# 本地 SAP 连接配置（公司内网地址，不公开；模板见 config.example.json）
+config.json
+
+# 交接文档（含公司与岗位信息，只留在本机）
+SN_auto_lookup_handoff.md
+
+# 运行时数据（含公司业务数据）
+sn_cache.sqlite3*
+data/
+*.tmp
+
+# 阶段 1 探索记录（含 SAP 查询结果、客户名称）
+explore/
+
+# 改造前的原版页面（已作为第一个提交保存在版本历史里）
+rt_scan.backup.html
